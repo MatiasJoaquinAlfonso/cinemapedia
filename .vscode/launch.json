@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cinemapedia",
+            "cwd": "cinemapedia",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cinemapedia (profile mode)",
+            "cwd": "cinemapedia",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cinemapedia (release mode)",
+            "cwd": "cinemapedia",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
