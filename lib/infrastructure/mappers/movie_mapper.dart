@@ -18,7 +18,7 @@ class MovieMapper {
     posterPath:
         (moviedb.posterPath != '')
             ? 'https://image.tmdb.org/t/p/w500${moviedb.posterPath}'
-            : 'no-poster',
+            : 'https://www.burgkino.at/sites/default/files/styles/movie_poster_teaser/public/default_images/poster-default.png?itok=49G7hq53',
     releaseDate: moviedb.releaseDate != null ? moviedb.releaseDate! : DateTime.now(),
     title: moviedb.title,
     video: moviedb.video,
