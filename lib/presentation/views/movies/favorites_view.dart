@@ -1,4 +1,3 @@
-import 'package:cinemapedia/main.dart';
 import 'package:cinemapedia/presentation/providers/providers.dart';
 import 'package:cinemapedia/presentation/widgets/widgets.dart';
 import 'package:flutter/material.dart';
@@ -44,7 +43,6 @@ class FavoritesViewState extends ConsumerState<FavoritesView> {
 
     if (favoritesMovies.isEmpty) {
       final colors = Theme.of(context).colorScheme;
-
       return _ButtonHome(colors: colors);
     }
 
@@ -59,6 +57,8 @@ class FavoritesViewState extends ConsumerState<FavoritesView> {
     );
   }
 }
+
+
 
 class _ButtonHome extends StatelessWidget {
   const _ButtonHome({required this.colors});
